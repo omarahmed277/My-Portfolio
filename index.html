@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orcha | Developer Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Background Animation -->
+    <div class="bg-animation" id="bgAnimation"></div>
+
+    <!-- Header -->
+    <header id="header">
+      <div class="logo">
+        <div class="logo-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <div class="logo-text">ORCHA</div>
+      </div>
+
+      <nav>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-subtitle">Creative Full-Stack & Secure Builds</div>
+        <h1 class="hero-title">
+          OMAR AHMED'S <br /><span class="highlight">PORTFOLIO</span>
+        </h1>
+        <a href="#projects" class="hero-cta">See My Work</a>
+        <div class="hero-social-icons">
+          <a href="https://github.com/omarahmed277" class="github"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/omar-ahmed-abdelwareth-ab2777257"
+            class="linkedin"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/omar_ahmed_abdelwareth27"
+            class="instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="./images/Myphoto.jpg" alt="Developer at work" />
+      </div>
+
+      <div class="slide-indicators">
+        <div class="indicator active"></div>
+        <div class="indicator"></div>
+        <div class="indicator"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="about-title">About Me</h2>
+        <p class="about-text">
+          I'm Omar Ahmed Abdelwareth, a Full-Stack Developer and Cybersecurity
+          Enthusiast passionate about building fast, secure, and scalable web
+          applications. I specialize in creating real-time systems with clean,
+          maintainable code and a creative touch. Whether you're a tech company
+          or a freelance client, I focus on delivering smart solutions that
+          combine performance, reliability, and modern design.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2 class="section-title">My Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./images/Project2.png" alt="Chat App" />
+          </div>
+          <div class="project-content">
+            <div class="project-tag">Web Application</div>
+            <h3 class="project-title">Chat App</h3>
+            <p class="project-description">
+              A real-time chat and login application built with Node.js,
+              Express, Socket.io, and MongoDB. This project supports user
+              authentication via local signup/login, Google, and LinkedIn, along
+              with real-time messaging and friend connection features.
+            </p>
+            <a
+              href="https://github.com/omarahmed277/Chat-App"
+              class="project-link"
+              >View Project <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img
+              src="./images/Project1.png"
+              alt="User Authentication Dashboard"
+            />
+          </div>
+          <div class="project-content">
+            <div class="project-tag">Web Application</div>
+            <h3 class="project-title">User Authentication Dashboard System</h3>
+            <p class="project-description">
+              A web application that allows users to sign up, log in, and access
+              a personalized dashboard. Users can authenticate using
+              email/password, Google, or LinkedIn. Built using PHP, MySQL, and
+              integrates with Google and LinkedIn APIs for OAuth authentication.
+            </p>
+            <a
+              href="https://github.com/omarahmed277/User-Authentication-Dashboard-System"
+              class="project-link"
+              >View Project <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <h2 class="section-title">My Skills</h2>
+
+      <div class="skills-container">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="skill-title">Frontend Development</h3>
+          <p class="skill-description">HTML5, CSS3, JavaScript, React</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h3 class="skill-title">Backend Development</h3>
+          <p class="skill-description">Node.js, Express.js</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3 class="skill-title">Database</h3>
+          <p class="skill-description">MongoDB, MySQL, SQL</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3 class="skill-title">Security</h3>
+          <p class="skill-description">
+            Authentication, Authorization, Data Protection
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 class="skill-title">Performance</h3>
+          <p class="skill-description">
+            Optimization, Lazy Loading, Caching Strategies
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3 class="contact-title">Let's Build Something Amazing Together</h3>
+          <p class="contact-text">
+            I'm currently available for freelance work or full-time positions.
+            If you have a project that needs coding skills, don't hesitate to
+            contact me.
+          </p>
+
+          <div class="contact-links">
+            <a
+              href="mailto:omarahmedfathyabdelwareth@gmail.com"
+              class="contact-link"
+            >
+              <div class="contact-link-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <span>omarahmedfathyabdelwareth@gmail.com</span>
+            </a>
+
+            <a href="#" class="contact-link">
+              <div class="contact-link-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <span>Egypt</span>
+            </a>
+          </div>
+        </div>
+
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/xzzrraoy"
+          method="POST"
+        >
+          <div class="form-group">
+            <input
+              type="text"
+              name="name"
+              class="form-input"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              class="form-input"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              name="subject"
+              class="form-input"
+              placeholder="Subject"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <textarea
+              name="message"
+              class="form-input"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="form-button">Send Message</button>
+          <div class="form-message" id="formMessage"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="logo-text">ORCHA</div>
+        </div>
+
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-social">
+          <a href="https://github.com/omarahmed277"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/omar-ahmed-abdelwareth-ab2777257"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/omar_ahmed_abdelwareth27"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">© 2025 Orcha. All Rights Reserved.</div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
